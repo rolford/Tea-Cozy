@@ -1,0 +1,138 @@
+/* Main Element */
+
+html {
+    font-size: 22px;
+    box-sizing: border-box;
+}
+
+* {
+    Font-Family: 'Helvetica', Sans-Serif;
+    color: seashell;
+    background-color: black;
+    text-align: center;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    width: 1200px;
+}
+
+.flex-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/* Header/Nav */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid seashell;
+    height: 70px;
+    z-index: 1;
+    align-items: center;
+    justify-content: flex-end;
+    opacity: 1;
+}
+
+#header-logo {
+    height: 50px;
+    margin: 10px;
+    position: absolute;
+    left: 0;
+}
+
+header a {
+    padding: 10px;
+    margin: 10px;
+}
+
+
+/* Hero */
+
+#mission {
+    height: 700px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-flex;
+    align-items: center;
+    margin: 70px auto auto auto;
+}
+
+#hero-content {
+    margin: auto;
+    width: 100%;
+}
+
+
+/* Store */
+
+#store {
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+}
+
+.store-item {
+    max-width: 300px;
+    align-content: space-around;
+    padding: 10px;
+}
+
+.store-item>img {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+
+
+/* Locations */
+
+#locations {
+    margin: auto;
+    padding: 15px;
+    height: 500px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#locations h2,
+#loc-box-container {
+    background-color: transparent;
+}
+
+.loc-box {
+    margin: 15px 40px;
+    background-color: black;
+    width: 300px;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+}
+
+
+/* Footer */
+
+footer {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.copyright-txt {
+    margin-left: 20px;
+    text-align: left;
+    margin-bottom: 0;
+}
